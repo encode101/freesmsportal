@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8" />
-<title>Send Free SMS Without Registration. No registration required to send Free SMS. Send free sms worldwide, Send Free SMS online</title>
+<title>FreeSMSPortal Online Chat. Find Singles Near You and Make Friends.</title>
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />

@@ -47,4 +47,17 @@ jQuery(function($){
 	
 	loadHistory(); 			// Loading SMS History On Page Load
 	//updateHistoryAuto();	//	Update History Automatically After 5 Seconds
+	
+	/* setInterval(function(){
+		setTimeout(function(){
+			for(var i=0;i<100;i++){
+				$("#sendprogress").attr("aria-valuenow",i);
+				console.log(i);
+			}
+		},1000);
+	},2000) */
+	
+	setTimeout(function(){
+		$("#sendprogress").attr("aria-valuenow",100);
+	},2000)
 });

@@ -24,33 +24,34 @@
 </script>
 </head>
 <body>
-<div class="header"><a href="index.php"><img src="images/free-sms-portal.png" alt="Send Free SMS Without Registration - Free SMS Portal"></a></div>
-<div class="wrapper">
+<div class="header col-span-12"><div class="branding"><a href="index.php"><img src="images/free-sms-portal.png" alt="Send Free SMS Without Registration - Free SMS Portal"></a></div></div>
+<div class="clearFix"></div>
+<div class="wrapper col-md-12">
   <div class="intro"><strong>Send Free SMS Without registration</strong>. Our world wide coverage ensures your message get delivered instantly. Spread smile, <strong>send free sms worldwide</strong>.
     Send unlimited free sms anywhere in the world for free. <strong>Send Free SMS online</strong> without the need of pulling out your cellphone. SMS is the fastest way to stay in touch with family and friends around the world. Its free, simple and instant. In our mission to make instant communication simple and free. &nbsp;&nbsp;<a href="whyus.php">Read More &raquo;</a></div>
   <div class="tabbedContent" id="homeTab">
     <ul class="nav nav-tabs">
       <li class="active"><a href="#home" data-toggle="tab">Send SMS</a></li>
       <li><a href="chat-room.php">Chat</a>
-      <!--<li style="float:right;"><a href="#settings" data-toggle="tab">Report Abuse</a></li> -->
+        <!--<li style="float:right;"><a href="#settings" data-toggle="tab">Report Abuse</a></li> -->
+      </li>
     </ul>
     <div class="tab-content">
       <div class="tab-pane active" id="home">
-        <div class="leftClm col-md-5">
-          <div class="app" id="app">
+        <div class="col-md-3">
+          <div class="app alert-info" id="app">
             <form action="" method="post" id="appform">
-              <table border="0" align="center">
+              <table border="0" align="center" cellpadding="5">
+                <tr> </tr>
                 <tr>
-                </tr>
-                <tr>
-                  <td><input type="text" name="mobile" placeholder="Mobile Number" /></td>
+                  <td><input type="text" name="mobile" placeholder="Mobile Number" class="form-control" /></td>
                 </tr>
                 <tr>
                   <td><input type="hidden" name="reqid" value="1" />
-                    <textarea name="message" placeholder="Enter Your Message Here" ></textarea></td>
+                    <textarea name="message" placeholder="Enter Your Message Here"  class="form-control"></textarea></td>
                 </tr>
                 <tr>
-                  <td><a href="" style="margin:10px 0 0 0;" class="btn btn-success" id="sendsms"><i class="icon-share icon-white"></i>&nbsp;&nbsp;Send SMS</a></td>
+                  <td><a href="#" class="btn btn-danger" id="sendsms"><i class="glyphicon glyphicon-send"></i>&nbsp;&nbsp;Send SMS</a></td>
                 </tr>
               </table>
             </form>
@@ -63,22 +64,17 @@
             <div class="fb-like" data-href="http://www.freesmsportal.com" data-send="false" data-width="250" data-show-faces="true"></div>
           </div>
         </div>
-        <div class="smsviews" id="smsviews"> </div>
-      </div>
-      <div class="tab-pane" id="profile">
-        <p>Not getting the exact words to express? Well, it happens. Let us help you. Select any categor below and get tons of SMS message. Its Free!</p>
-        <ul>
-          <li>Love SMS</li>
-          <li>Shayari SMS</li>
-          <li>Friendship SMS</li>
-          <li>Funny SMS</li>
-        </ul>
+        <div class="smsviews col-md-9" id="smsviews"> </div>
+        <div class="clearFix"></div>
       </div>
     </div>
-  </div>  
-  <div class="clearFix copy"> &copy;Copyright 2013. All Rights Reserved. <br/>
-    Use of this website is subjected to <a href="terms.php">Terms &amp; Conditions</a> </div>
+  </div>
+  <div class="clearFix"></div>
 </div>
+<div class="footer alert-info">
+<div class="clearFix copy"> &copy;Copyright 2013. All Rights Reserved. <br/>
+  Use of this website is subjected to <a href="terms.php">Terms &amp; Conditions</a> </div>
+  </div>
 <script>
 	document.getElementById('appform').reset();
 </script>
